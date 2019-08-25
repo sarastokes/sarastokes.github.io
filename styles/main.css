@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -34,6 +38,13 @@ header h1 {
 	color: #fff;
 }
 
+header .credit {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
 main {
-	padding: 2em 2em;
+    margin: 0 auto;
+    max-width: 55em;
+    padding: 2em 2em;
 }
