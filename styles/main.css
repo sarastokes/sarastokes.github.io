@@ -24,8 +24,13 @@ a, .link {
 	color: var(--primary);
 }
 
+a:focus, a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
 header, footer {
-	padding: 4vw 2em;
+	padding: 2vw 2em;
 	text-align: center;
 	background-color: var(--primary);
 	color: #fff;
